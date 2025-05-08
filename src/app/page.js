@@ -1,17 +1,15 @@
 import React from 'react'
 import style from '@/app/styles/Home.module.css'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-// import About from './pages/About'
-// import Contact from './pages/Contact'
+import Home from '@/app/hero/page'
+import Navbar from '@/app/components/Navbar'
+
 
 const page = () => {
   return (
     <div>
       {/* <Navbar /> */}
       <Home />
-      {/* <About /> */}
-      {/* <Contact /> */}
+     
 
     </div>
   )
